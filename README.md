@@ -1,7 +1,7 @@
 # grupo_1_proyecto_2_music_stream
 
 # 🎶 MusicStream
-*Análisis musical con datos reales de Spotify y Last.fm*
+*Análisis musical de 2010 a 2018 con datos reales de Spotify y Last.fm*
 
 > Proyecto del Módulo 2 realizado por **5 mujeres apasionadas por la música y los datos**.  
 > Objetivo: hacer un **análisis de datos** de cómo evolucionaron géneros, artistas y canciones entre 2010 y 2018.
@@ -27,24 +27,19 @@ Buscamos mostrar de manera clara cómo evolucionaron los géneros, cuáles artis
 - **Spotify API:** artista, género, tipo (canción o álbum), nombre, año, cantidad de canciones  
 - **Last.fm API:** biografía, número de oyentes (*listeners*), reproducciones (*playcount*), artistas similares  
 
-## Procesamiento
-- Se genera un archivo **CSV por año**, integrando los datos de Spotify y Last.fm  
-- La información se organiza de manera **coherente y consistente**, facilitando su análisis y posterior carga en la base de datos
 
 ---
 
 ### 2. Almacenamiento de la información
-## Base de datos
-- Se utiliza una **base de datos relacional (SQL)** para un manejo estructurado y eficiente de la información.
-## Tablas
-- **Tablas principales e intermedias:** los datos se organizan en tablas base y tablas de relación, facilitando consultas, análisis y mantenimiento.
-## Inserción de datos
-- Los datos recolectados se insertan de manera **ordenada y coherente**, asegurando la **integridad y consistencia** de la información.
+
+- **Base de datos**: se utiliza para almacenar y gestionar la información de forma estructurada y eficiente.
+- **Tabla base**: todos los datos se concentran en una sola tabla, evitando la complejidad de relaciones y tablas intermedias.
+- **Carga de datos**: se genera un archivo CSV consolidado con la información de todos los años, integrando datos de Spotify y Last.fm, que luego se utiliza para la inserción en la base de datos.
 
 ---
 
 ### 3. Análisis y conclusiones
-- Consultas SQL: análisis de los datos para extraer conclusiones sobre tendencias musicales, popularidad de artistas, patrones de consumo y relaciones entre producción y recepción.
+- **Consultas analíticas**: se exploran los datos para identificar tendencias musicales, evaluar la popularidad de artistas y detectar patrones de consumo, a partir de preguntas de interés analítico.
 
 ---
 
