@@ -1,5 +1,3 @@
-# grupo_1_proyecto_2_music_stream
-
 # Musicstream 🎵
 
 **Musicstream** es un proyecto de análisis de datos enfocado en la **evolución de la música entre 2010 y 2018**. Utilizando datos extraídos de las APIs de **Spotify** y **Last.fm**, el equipo se ha centrado en analizar cuatro géneros clave: **Country, Latin, Jazz y Rock**.
