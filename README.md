@@ -1,9 +1,11 @@
 # Musicstream 🎵
 
-**Musicstream** es un proyecto de análisis de datos que busca comprobar si lo que pensamos sobre la música realmente coincide con lo que dicen los números. Entre **2010 y 2018**, la industria ha cambiado por completo, y hemos usado las APIs de **Spotify** y **Last.fm** para entender qué ha pasado con cuatro géneros: **Country, Latin, Jazz y Rock**.
+**Musicstream** es un proyecto de análisis de datos que busca comprobar si lo que pensamos sobre la música realmente coincide con lo que dicen los números. 
+Entre **2010 y 2018**, la industria ha cambiado por completo, y hemos usado las APIs de **Spotify** y **Last.fm** para entender qué ha pasado con cuatro géneros: **Country, Latin, Jazz y Rock**.
 
 ### El valor del proyecto
-El objetivo general es verificar si nuestra cultura musical y nuestras primeras impresiones encajan con los datos reales de oyentes y popularidad. Queremos descubrir si lo que recordamos es una percepción personal basada en nuestra experiencia o si los datos confirman esas tendencias de manera objetiva.
+El objetivo general es verificar si nuestra cultura musical y nuestras primeras impresiones encajan con los datos reales de oyentes y popularidad. 
+Queremos descubrir si lo que recordamos es una percepción personal basada en nuestra experiencia o si los datos confirman esas tendencias de manera objetiva.
 
 ## 👥 Equipo y Metodología
 
