@@ -1,7 +1,7 @@
-# MusicStream – README de Mejora Individual 
+# MusicStream – README Version 2
 
-Esta versión incluye **mejoras desarrolladas y supervisadas por Bet**, realizadas tras la revisión grupal, enfocadas en claridad, seguridad y buenas prácticas. 
-
+La versión 1 corresponde al trabajo grupal, mientras que la versión 2 refleja las **mejoras individuales desarrolladas por Bet**, orientadas a mejorar la claridad, reforzar la seguridad y aplicar buenas prácticas.
+ 
 El proyecto analiza la música entre **2010 y 2020** (ampliando el periodo original de 2010 a 2018), considerando los años **2010, 2012, 2014, 2016, 2018 y 2020**, y los géneros **Country, Latin, Jazz y Rock**, utilizando datos de **Spotify** y **Last.fm**.
 
 ## Principales mejoras 
