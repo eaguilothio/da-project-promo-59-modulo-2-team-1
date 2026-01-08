@@ -1,49 +1,73 @@
-# grupo_1_proyecto_2_music_stream
+# Musicstream 🎵
 
-# 🎶 MusicStream
-*Análisis musical de 2010 a 2018 con datos reales de Spotify y Last.fm*
+- **Musicstream** es un proyecto de análisis de datos que busca comprobar si lo que pensamos sobre la música realmente coincide con lo que dicen los números. 
+- Entre **2010 y 2018**, la industria ha cambiado por completo, y hemos usado las APIs de **Spotify** y **Last.fm** para entender qué ha pasado con cuatro géneros: **Country, Latin, Jazz y Rock**.
 
-> Proyecto del Módulo 2 realizado por **5 mujeres apasionadas por la música y los datos**.  
-> Objetivo: hacer un **análisis de datos** de cómo evolucionaron géneros, artistas y canciones entre 2010 y 2018.
+### El valor del proyecto
+- El objetivo general es verificar si nuestra cultura musical y nuestras primeras impresiones encajan con los datos reales de oyentes y popularidad. 
+Queremos descubrir si lo que recordamos es una percepción personal basada en nuestra experiencia o si los datos confirman esas tendencias de manera objetiva.
 
----
+## 👥 Equipo y Metodología
 
-## 🎯 Objetivo
-Analizar la **evolución de la música** entre 2010 y 2018 a partir de datos de **Spotify** y **Last.fm**, centrándonos en **"country","latin","jazz","rock"**.  
+- Para trabajar de manera organizada y eficiente, nos organizamos de la siguient manera:
 
-Buscamos mostrar de manera clara cómo evolucionaron los géneros, cuáles artistas se mantuvieron activos a lo largo de los años y qué canciones o álbumes alcanzaron mayor popularidad.
+* **Scrum Master:** Bet Aguiló.
+* **Equipo de Desarrollo:**
+    * Alba Jalencas.
+    * Ana Romero.
+    * Fabiana Britez.
+    * Patricia Anaya.
 
----
+## 🛠️ Herramientas utilizadas
 
-## 🛠️ Cómo lo hicimos
+- Hemos diseñado un sistema para extraer, procesar y almacenar datos con este stack tecnológico:
 
-### 1. Extracción de datos 
+| Herramienta | Función |
+| :--- | :--- |
+| **Python** | Lenguaje principal para toda la lógica del proyecto. |
+| **Spotipy / Requests** | Conexión con las APIs oficiales de Spotify y Last.fm. |
+| **Pandas / NumPy** | Limpieza y tratamiento avanzado de los datos. |
+| **MySQL** | Organización y almacenamiento en base de datos. |
+| **Matplotlib** | Creación de gráficos y visualización de resultados. |
+| **python-dotenv** | Gestión segura de claves y credenciales. |
 
-## Datos obtenidos
-- **Rango temporal:** 2010–2018 (cada 2 años: 2010, 2012, 2014, 2016, 2018)  
-- **Géneros musicales:** country, latin, jazz, rock  
 
-## Plataformas y campos
-- **Spotify API:** artista, género, tipo (canción o álbum), nombre, año, cantidad de canciones  
-- **Last.fm API:** biografía, número de oyentes (*listeners*), reproducciones (*playcount*), artistas similares  
+## 🚀 Estructura del proyecto
 
+- El flujo de trabajo se divide en 2 etapas principales:
 
----
+1.  **Obtención de datos (`CODIGO_FINAL.ipynb`)**
+2.  **Análisis (`CONSULTAS_musicstream.ipynb`)** 
 
-### 2. Almacenamiento de la información
+## 📊 ¿Dato o Percepción?
 
-- **Base de datos**: se utiliza para almacenar y gestionar la información de forma estructurada y eficiente.
-- **Tabla base**: todos los datos se concentran en una sola tabla, evitando la complejidad de relaciones y tablas intermedias.
-- **Carga de datos**: se genera un archivo CSV consolidado con la información de todos los años, integrando datos de Spotify y Last.fm, que luego se utiliza para la inserción en la base de datos.
+- Uno de los puntos más interesantes del análisis fue contrastar nuestras expectativas con la realidad de los datos:
 
----
+> **El hallazgo:** Aunque todas pensábamos que la música **Latina** lideraría el impacto en la era digital, los datos revelaron que el **Rock** mantuvo el liderazgo en términos de oyentes y presencia durante el periodo analizado.
 
-### 3. Análisis y conclusiones
-- **Consultas analíticas**: se exploran los datos para identificar tendencias musicales, evaluar la popularidad de artistas y detectar patrones de consumo, a partir de preguntas de interés analítico.
+Este resultado demuestra que nuestra percepción cultural no siempre coincide con las métricas globales de las plataformas.
 
----
+## ⚙️ Configuración
 
-## 🧠 Metodología
-Trabajamos con **Agile + Scrum**, con roles:  
-- **Scrum Master:** facilita el flujo  
-- **Equipo de desarrollo:** construye y valida el análisis  
+- Si quieres replicar el proyecto, solo tienes que crear un archivo llamado `.env` en la raíz con tus credenciales:
+
+```env
+# Claves de Last.fm
+API_KEY_LASTFM=tu_clave_aqui
+SHARED_SECRET_LASTFM=tu_secreto_aqui
+
+# Claves de Spotify
+SPOTIFY_CLIENT_ID=tu_id_aqui
+SPOTIFY_CLIENT_SECRET=tu_secreto_aqui
+
+# Base de datos
+MYSQL_HOST=localhost
+MYSQL_USER=root
+MYSQL_PASSWORD=tu_password
+MYSQL_DATABASE=musicstream_db
+
+## 🔹 Actualizaciones del Proyecto – Rama Bet
+
+- Una segunda versión del proyecto se encuentra disponible en la rama **Bet**:  
+[Bet – Mejoras y Actualizaciones](https://github.com/eaguilothio/da-project-promo-59-modulo-2-team-1/tree/Bet/proyecto_v2_mejoras_y_actualizaciones)
+
